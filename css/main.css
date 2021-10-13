@@ -47,6 +47,9 @@ section {
   section {
     padding-left: 0;
   }
+  section .content {
+    padding-top: 45px;
+  }
 
   section .mobile_header {
     display: flex;
