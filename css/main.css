@@ -31,4 +31,26 @@ button {
 }
 
 section {
+  padding-left: 230px;
+}
+
+/* 반응형 */
+@media screen and (max-width: 768px) {
+  header {
+    right: -230px;
+  }
+
+  header .logo {
+    display: none;
+  }
+
+  section {
+    padding-left: 0;
+  }
+
+  section .mobile_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

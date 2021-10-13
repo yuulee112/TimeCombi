@@ -100,7 +100,7 @@ header .logo h1 {
 /* PC 메뉴바 - profile */
 header .profile {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 header .profile > img {
@@ -132,7 +132,7 @@ header .header_menu {
   text-align: center;
   font-weight: 700;
   flex-grow: 1;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 header .header_menu ul li {
@@ -172,20 +172,4 @@ section .mobile_header .logo h1 {
   font-size: 20px;
   font-weight: 700;
   margin-left: 10px;
-}
-
-/* 반응형 */
-@media screen and (max-width: 768px) {
-  header {
-    right: -230px;
-  }
-
-  header .logo {
-    display: none;
-  }
-  section .mobile_header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
